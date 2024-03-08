@@ -20,18 +20,6 @@ public class Video extends ElementoMultimediale {
         }
     }
 
-    public void volumeUp() {
-        volume++;
-    }
-    public void volumeDown(){
-        volume--;
-    }
-    public void luminositaUp(){
-        luminosita++;
-    }
-    public void luminositaDown(){
-        luminosita--;
-    }
 
 
 

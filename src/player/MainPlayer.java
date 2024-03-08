@@ -53,6 +53,11 @@ public class MainPlayer {
                     int volume = scn.nextInt();
                     elementi[i] = new RecAudio(title, durata, volume);
                     ((RecAudio) elementi[i]).play();
+                    System.out.println("desideri cambiare il volume? a quanto?");
+                    volume = scn.nextInt();
+                    scn.nextLine();
+                    elementi[i] = new RecAudio(title, durata, volume);
+                    ((RecAudio) elementi[i]).play();
                     break;
                 case 2:
                     System.out.println("inserici titolo video:");
@@ -67,21 +72,16 @@ public class MainPlayer {
                     int luminositaV = scn.nextInt();
                     elementi[i] = new Video(titleV, luminositaV, durataV, volumeV);
                     ((Video) elementi[i]).play();
-
-
-//                    System.out.println("desideri alzare il volume? S/N");
-//                    String vUp = scn.nextLine();
-//                    scn.nextLine();
-//
-//                    if (vUp == "s"){
-//                        ((Video) elementi[i]).volumeUp();
-//                    } else if (vUp == "n"){
-//                        ((Video) elementi[i]).volumeDown();
-//                    } else System.out.println("err");
-//
-//
-//                    ((Video) elementi[i]).play();
-                    
+                    System.out.println("desideri cambiare il volume? a quanto?");
+                    volumeV = scn.nextInt();
+                    scn.nextLine();
+                    elementi[i] = new Video(titleV, luminositaV, durataV, volumeV);
+                    ((Video) elementi[i]).play();
+                    System.out.println("vuoi cambiare luminosita? imposta il tuo valore: ");
+                    luminositaV = scn.nextInt();
+                    scn.nextLine();
+                    elementi[i] = new Video(titleV, luminositaV, durataV, volumeV);
+                    ((Video) elementi[i]).play();
                     break;
                 case 3:
                     System.out.println("inserici titolo immagine:");
@@ -92,7 +92,11 @@ public class MainPlayer {
                     int luminositaI = scn.nextInt();
                     elementi[i] = new Immagine(titleI, luminositaI);
                     ((Immagine) elementi[i]).show();
-
+                    System.out.println("vuoi cambiare luminosita? imposta il tuo valore: ");
+                    luminositaI = scn.nextInt();
+                    scn.nextLine();
+                    elementi[i] = new Immagine(titleI, luminositaI);
+                    ((Immagine) elementi[i]).show();
                 case 0:
                     scn.close();
                     System.out.println("Fine");

@@ -18,10 +18,4 @@ public class RecAudio extends ElementoMultimediale {
         }
     }
 
-    public void volumeUp(){
-        volume++;
-    }
-    public void volumeDown(){
-        volume--;
-    }
 }
