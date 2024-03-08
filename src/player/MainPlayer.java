@@ -34,8 +34,8 @@ public class MainPlayer {
                     System.out.println("volume: ");
                     int volumeV = scn.nextInt();
                     System.out.println("a che luminosità desideri riprodurre il video?");
-                    int luminosita = scn.nextInt();
-                    elementi[i] = new RecAudio(title, durataV, volumeV, luminosita);
+                    int luminositaV = scn.nextInt();
+                    elementi[i] = new Video(title, luminositaV, durataV, volumeV);
                     elementi[i].play();
                     break;
                 default:
