@@ -1,4 +1,6 @@
 package player;
 
-public class Immagine extends ElementoMultimediale{
+public class Immagine {
+
+
 }
