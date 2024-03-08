@@ -1,28 +1,47 @@
 package player;
 
+
+import java.util.Objects;
 import java.util.Scanner;
 
 public class MainPlayer {
+
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
-
         ElementoMultimediale[] elementi = new ElementoMultimediale[5];
+
 
         for (int i = 0; i < elementi.length; i++) {
             System.out.println("cosa vuoi riprodurre? 1 audio, 2 video, 3 immagine, 0 per uscire");
             int num = scn.nextInt();
             scn.nextLine();
 
-            if (num ==1){
+            if (num == 1) {
                 System.out.println("hai selezionato audio");
-            } else if (num==2) {
+            } else if (num == 2) {
                 System.out.println("hai selezionato video");
-            } else if (num==3){
+            } else if (num == 3) {
                 System.out.println("hai selezionato immagine");
+            } else if (num == 0) {
+                System.out.println("Arrivederci");
             } else System.out.println("errore hai selezionato un valore sbagliato! riprova");
 
 
-            switch (num){
+//            if (num >= 1 && num <= 5) {
+//                if ( instanceof RecAudio && elemento instanceof Video) {
+//                    System.out.println("aaaaaaaaaaaaaaaaaaaaaaaaa");
+//                    ((RecAudio) elemento).play();
+//                } else if (elemento instanceof Immagine) {
+//                    ((Immagine) elemento).show();
+//                } else System.out.println("error 1");
+//            } else if (num != 0) {
+//                System.out.println("error 2");
+//            }
+
+
+
+
+            switch (num) {
                 case 1:
                     System.out.println("inserici titolo audio:");
                     String title = scn.nextLine();
@@ -33,7 +52,7 @@ public class MainPlayer {
                     System.out.println("volume: ");
                     int volume = scn.nextInt();
                     elementi[i] = new RecAudio(title, durata, volume);
-                    elementi[i].play();
+                    ((RecAudio) elementi[i]).play();
                     break;
                 case 2:
                     System.out.println("inserici titolo video:");
@@ -47,7 +66,22 @@ public class MainPlayer {
                     System.out.println("a che luminosità desideri riprodurre il video?");
                     int luminositaV = scn.nextInt();
                     elementi[i] = new Video(titleV, luminositaV, durataV, volumeV);
-                    elementi[i].play();
+                    ((Video) elementi[i]).play();
+
+
+//                    System.out.println("desideri alzare il volume? S/N");
+//                    String vUp = scn.nextLine();
+//                    scn.nextLine();
+//
+//                    if (vUp == "s"){
+//                        ((Video) elementi[i]).volumeUp();
+//                    } else if (vUp == "n"){
+//                        ((Video) elementi[i]).volumeDown();
+//                    } else System.out.println("err");
+//
+//
+//                    ((Video) elementi[i]).play();
+                    
                     break;
                 case 3:
                     System.out.println("inserici titolo immagine:");
@@ -57,17 +91,16 @@ public class MainPlayer {
                     System.out.println("a che luminosità desideri riprodurre il video?");
                     int luminositaI = scn.nextInt();
                     elementi[i] = new Immagine(titleI, luminositaI);
-                    elementi[i].show();
+                    ((Immagine) elementi[i]).show();
 
+                case 0:
+                    scn.close();
+                    System.out.println("Fine");
                     break;
             }
-
         }
 
         scn.close();
 
-
-
-        }
-
     }
+}

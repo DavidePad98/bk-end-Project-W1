@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81cd27da-4019-47d3-a346-a8d92482d71f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/interfaces/Viewer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/Viewer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/Show.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/player/ElementoMultimediale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/player/ElementoMultimediale.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/player/Immagine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/player/Immagine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/player/MainPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/player/MainPlayer.java" afterDir="false" />
@@ -21,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>

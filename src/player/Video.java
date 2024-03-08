@@ -1,6 +1,8 @@
 package player;
 
-public class Video extends ElementoMultimediale{
+import interfaces.Playable;
+
+public class Video extends ElementoMultimediale {
     private int luminosita;
     private int durata;
     private int volume;
@@ -12,22 +14,16 @@ public class Video extends ElementoMultimediale{
         this.volume = volume;
     }
 
-    @Override
     public void play() {
         for (int i = 0; i < durata; i++) {
             System.out.println(getTitle() + " " + "!".repeat(volume) + "*".repeat(luminosita));
         }
     }
 
-    @Override
-    public void show() {
-
-    }
-
-    public void VolumeUp(){
+    public void volumeUp() {
         volume++;
     }
-    public void VolumeDown(){
+    public void volumeDown(){
         volume--;
     }
     public void luminositaUp(){
@@ -36,4 +32,7 @@ public class Video extends ElementoMultimediale{
     public void luminositaDown(){
         luminosita--;
     }
+
+
+
 }

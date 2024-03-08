@@ -1,5 +1,5 @@
 package interfaces;
 
-public interface Viewer {
+public interface Show {
     public void show();
 }

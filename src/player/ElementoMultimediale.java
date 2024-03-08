@@ -1,5 +1,7 @@
 package player;
 
+import interfaces.Playable;
+
 public abstract class ElementoMultimediale {
 protected String title;
 
@@ -11,6 +13,4 @@ public ElementoMultimediale(String title){
         return title;
     }
 
-    public abstract void play();
-public abstract void show();
 }

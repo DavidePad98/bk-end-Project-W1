@@ -1,6 +1,8 @@
 package player;
 
-public class RecAudio extends ElementoMultimediale{
+import interfaces.Playable;
+
+public class RecAudio extends ElementoMultimediale {
     private int durata;
     private int volume;
 
@@ -10,25 +12,16 @@ public class RecAudio extends ElementoMultimediale{
         this.volume= volume;
     }
 
-    public int getDurata() {
-        return durata;
-    }
-    @Override
     public void play(){
         for (int i = 0; i < durata; i++) {
             System.out.println(getTitle() + " " + "!".repeat(volume));
         }
     }
 
-    @Override
-    public void show() {
-
-    }
-
-    public void VolumeUp(){
+    public void volumeUp(){
         volume++;
     }
-    public void VolumeDown(){
+    public void volumeDown(){
         volume--;
     }
 }
