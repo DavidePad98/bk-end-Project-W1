@@ -13,12 +13,16 @@ public class RecAudio extends ElementoMultimediale{
     public int getDurata() {
         return durata;
     }
-
-   @Override
+    @Override
     public void play(){
         for (int i = 0; i < durata; i++) {
             System.out.println(getTitle() + " " + "!".repeat(volume));
         }
+    }
+
+    @Override
+    public void show() {
+
     }
 
     public void VolumeUp(){

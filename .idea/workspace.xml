@@ -5,28 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81cd27da-4019-47d3-a346-a8d92482d71f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/Viewer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project-week1/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project-week1/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project-week1/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project-week1/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project-week1/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project-week1/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project-week1/Project-week1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project-week1/out/production/Project-week1/interfaces/Playable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project-week1/out/production/Project-week1/player/ElementoMultimediale.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project-week1/out/production/Project-week1/player/Immagine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project-week1/out/production/Project-week1/player/MainPlayer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project-week1/out/production/Project-week1/player/RecAudio.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project-week1/out/production/Project-week1/player/Video.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project-week1/src/interfaces/Playable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project-week1/src/player/ElementoMultimediale.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project-week1/src/player/Immagine.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project-week1/src/player/MainPlayer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project-week1/src/player/RecAudio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project-week1/src/player/Video.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/player/ElementoMultimediale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/player/ElementoMultimediale.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/player/Immagine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/player/Immagine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/player/MainPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/player/MainPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/player/RecAudio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/player/RecAudio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/player/Video.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/player/Video.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +51,8 @@
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/david/Desktop/Corso/Back-End/bk-end-Project-W1",
-    "onboarding.tips.debug.path": "C:/Users/david/Desktop/Corso/Back-End/bk-end-Project-W1/Project-week1/src/Main.java"
+    "onboarding.tips.debug.path": "C:/Users/david/Desktop/Corso/Back-End/bk-end-Project-W1/Project-week1/src/Main.java",
+    "settings.editor.selected.configurable": "settings.sync"
   }
 }]]></component>
   <component name="SharedIndexes">

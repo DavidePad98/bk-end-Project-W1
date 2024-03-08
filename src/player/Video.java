@@ -18,6 +18,12 @@ public class Video extends ElementoMultimediale{
             System.out.println(getTitle() + " " + "!".repeat(volume) + "*".repeat(luminosita));
         }
     }
+
+    @Override
+    public void show() {
+
+    }
+
     public void VolumeUp(){
         volume++;
     }

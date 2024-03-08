@@ -12,4 +12,5 @@ public ElementoMultimediale(String title){
     }
 
     public abstract void play();
+public abstract void show();
 }
